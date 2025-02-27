@@ -2,6 +2,7 @@ const express = require("express");
 const jsonServer = require("json-server");
 
 const server = express();
+
 const router = jsonServer.router("db.json"); 
 const middlewares = jsonServer.defaults();
 
